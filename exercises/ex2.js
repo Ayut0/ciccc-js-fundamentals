@@ -9,3 +9,19 @@ Write a series of conditional statements that:
 - Prints "this is a large group" if musicians is greater than 4
 
 */
+
+let numberOfMusicians;
+
+if(numberOfMusicians == 0){
+    console.log("not a group")
+}else if(numberOfMusicians == 1){
+    console.log("solo")
+}else if(numberOfMusicians == 2){
+    console.log("duet")
+}else if(numberOfMusicians == 3){
+    console.log("trio")
+}else if(numberOfMusicians ==4){
+    console.log("quartet")
+}else{
+    console.log("this is a large group")
+}

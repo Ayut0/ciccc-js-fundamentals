@@ -8,9 +8,11 @@ Hint: Use the %(modulo) operator to determine is a number is even or odd.
 
 const number = 2; // Change your number to test your if statement
 
-if (/* your conditional goes here */) {
+let even = (number % 2)
 
+if (even = 1) {
+    console.log("Even")
 } else {
-
+    console.log("Odd");
 }
 
