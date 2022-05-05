@@ -1,5 +1,7 @@
+
 const shirtWidth = 19; 
 const shirtLength = 29.5; 
+
 const shirtSleeve = 8.60;
 let sizeResult = "N/A"
 
@@ -16,7 +18,7 @@ if (shirtWidth>=18 && shirtWidth<20){
             sizeResult ="Shirt size is M.";
         }
     }
-    
+
 } else if (shirtWidth<24){
     if(shirtLength>=30 && shirtLength<31){
         if(shirtSleeve>=8.63 && shirtSleeve<8.88){
@@ -44,7 +46,6 @@ if (shirtWidth>=18 && shirtWidth<20){
             sizeResult ="Shirt size is 3XL.";
         }
     }
-    
 } else {
     sizeResult ="N/A";
 }

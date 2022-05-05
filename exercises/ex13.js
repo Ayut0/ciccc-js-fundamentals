@@ -22,4 +22,3 @@ for(let i = 0; i < target; i++){
     console.log(str);
 }
 console.log(`${target}! = ${total}`);
-

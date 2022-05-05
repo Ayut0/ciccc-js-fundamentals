@@ -7,7 +7,6 @@
 //     //total = 5
 //     return total;
 // };
-
 // console.log(total > 0); // expect print true 5 > 0
 // // false total 0 = false
 // console.log(total);

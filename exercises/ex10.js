@@ -6,7 +6,6 @@ while (x >= 1) {
   console.log("hello " + x);
   x = x - 1;
 }
-
 */
 let x = 9;
 for(let i = 1; i <= x; i++){
