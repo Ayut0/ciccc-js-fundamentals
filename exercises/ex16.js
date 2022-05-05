@@ -35,3 +35,15 @@ function makeLine(length) {
     }
     return line + "\n";
 }
+
+
+const buildTriangle = (k)=>{
+  let triangle = '';
+  for(let i = 1; i <= k; i++){
+    triangle += makeLine(i);
+  }
+
+  return triangle;
+}
+
+console.log(buildTriangle(10));
