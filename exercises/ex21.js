@@ -9,8 +9,8 @@ Afterwards, print out the prices array to the console.
 
 let prices = [1.23, 48.11, 90.11, 8.5, 9.99, 1.0, 1.1, 67.0];
 
-prices.splice(0, 0, 1.01)
-prices.splice(2, 2, 80.11)
-prices.splice(6, 6, 2.01)
+prices.splice(0, 1, 1.01)
+prices.splice(2, 1, 80.11)
+prices.splice(6, 1, 2.01)
 
 console.log(prices);

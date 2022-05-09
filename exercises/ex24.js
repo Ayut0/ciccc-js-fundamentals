@@ -20,3 +20,24 @@ console.log(lastIndexOf([ 5, 5, 5 ], 5), "=?", 2);
 console.log(lastIndexOf([], 3), "=?", -1);
 
 */
+
+let arr = [];
+const lastIndexOf = (array, num) =>{
+    if(!(array.includes(num))){
+        return -1;
+    }
+    for(let i = 0; i<array.length; i++){
+        if(array[i] === num){
+            arr.push(i);
+        }
+    }
+
+    const lastItem = arr.pop();
+    console.log(lastItem);
+}
+
+lastIndexOf([0, 1, 4, 1, 2], 1);
+lastIndexOf([0, 1, 4, 1, 2], 2);
+lastIndexOf([0, 1, 4, 1, 2], 3);
+lastIndexOf([5, 5, 5], 5);
+lastIndexOf([], 3);
