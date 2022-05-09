@@ -11,7 +11,6 @@
 // // false total 0 = false
 // console.log(total);
 // console.log(sum());
-
 let prize = "";
 const winner = 1;
 

@@ -6,4 +6,4 @@ const laugh = function(number){
     return result + "!";
 }
 
-console.log(laugh(3));
+console.log(laugh(5));

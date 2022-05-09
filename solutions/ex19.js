@@ -1,11 +1,19 @@
 function emotions(emotion, emotionFunction){
-    return "I am " + emotion +", " + emotionFunction(2);
+    return "I am " + emotion +", " + emotionFunction();
 }
 
-console.log(emotions("happy", function laugh(number){
+function crying(){
+    return "boohoo!";
+}
+
+emotions("happy", function laugh(number){
     let result = "";
     for(let i=1; i<=number; i++){
         result += "ha";
     }
     return result + "!";
+});
+
+console.log(emotions("sad", function crying(){
+    return "boohoo!";
 }));
