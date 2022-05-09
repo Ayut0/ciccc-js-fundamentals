@@ -26,7 +26,7 @@ Your balance is currently $1000 and your interest rate is 1%.
 const savingsAccount = {
   balance: 1000,
   interestRatePercent: 1,
-  message: `Welcome! Your balance is currently $1,000 and your interest rate is 1%.`,
+  
 
   deposit: function addMoney(amount) {
     if (amount > 0) {
@@ -41,7 +41,7 @@ const savingsAccount = {
   },
 
   summary: function printAccountSummary(){
-    return this.message;
+    return `Welcome! Your balance is currently $${this.balance} and your interest rate is ${this.interestRatePercent}%.`;
   }
 };
 
